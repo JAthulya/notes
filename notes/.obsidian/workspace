@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "firewall.md",
+            "file": "firewalls.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "firewall.md",
+                "file": "firewalls.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "firewall.md",
+                "file": "firewalls.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "firewall.md"
+                "file": "firewalls.md"
               }
             }
           }
@@ -130,6 +130,7 @@
   },
   "active": "975cf757c5cfe752",
   "lastOpenFiles": [
-    "firewall.md"
+    "1.MD",
+    "firewalls.md"
   ]
 }
