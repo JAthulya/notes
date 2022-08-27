@@ -1,5 +1,6 @@
 personal firewalls/enterprise firewall
 basic method- allow or deny the connection
+traditional firewall-> works on network layer
 
 netcat- windows start a listner(in cmd)
 -ncat -l 4545
@@ -40,3 +41,42 @@ sudo iptables -t nat -L -n
 
 
 firewall builder -> make it easy to manage firewalls
+
+GNS3 emulator -> https://github.com/GNS3/gns3-gui/releases?after=v1.5.0rc1
+CIsco ASA router
+
+WAF- web application firewall
+ex - imperva
+
+Honeypots -> honeynet.org
+ex- dockpot/ cowrie
+honeyscore.shodan.io
+
+sabsa.org -> leading security architecture framework
+
+IDS - network based ids or host based ids
+IPS - ex- virus guard
+ADS - anomaly detection system 
+1.protocol content or behavior anomalies   /   2.statistical anomalies
+
+snort - network based IDS using rules based detection
+apt-get install snort
+
+suricata-
+security onion-
+
+einstein - intrusion detection/intrusion prevention/security analytics/information sharing
+
+msf venom - creating a payload
+cloack - creating python payload
+
+fileless attacks - powershell can be used to execute scripts in memory
+(python -m SimpleHTTPServer)
+
+hiding with the cloack of invisibility - ex- cd History(in windows)
+
+embedding malware in an alternate data stream - windows can see $DATA section in NTFS cant see alternate data streams
+
+hide text file.
+type file1.txt > file2.txt:hidden.txt
+more < file2.txt:hidden.txt
