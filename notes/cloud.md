@@ -53,3 +53,33 @@ remove log entries and audit records(apps/hosts and network devices)/ watch for 
 4. Multifactor authentication
 5. Role based access control(RBAC)
 
+__cloud high availability__
+assests
+network connections(internet/dedicated circuits/multiple ISP)
+data replication(cloud stored files/databases/VMs)
+backups(RTO/onpremises and cloud sources/RPO)
+application resiliency(loadbalancing)
+
+_cloud security recommentation tools_
+azure security center(policy/regulation compliance)
+
+-cloud firewall solutions-
+all resources->
+
+_allowinging public access directly to cloud is unneccessary risk_
+solution - jump box virtual machine(reduce attack surface)
+
+for pentesting- deploy kali linux vm and make open port 22 ssh and connect it using putty
+
+__cloud security settings__
+it service hardening- disabling unneccessary services and applying patches to softwares
+encrypt data
+network traffic ACL
+jump boxes and bastion hosts
+
+tool - core cloudlnspect
+penetration testing as a service(PTaaS)
+security recommendation
+clouding monitoring tools
+cloud auding tools
+
