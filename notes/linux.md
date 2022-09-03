@@ -21,6 +21,7 @@ mv - move a file or folder
 rm - remove a file or folder
 file - determine the type of a file
 su - switch between users
+wget - wget url
 
 __Common directories__
 /etc
@@ -34,6 +35,47 @@ __Common directories__
 
 /tmp
 >This is a unique root directory found on a Linux install. Short for "temporary", the /tmp directory is volatile and is used to store data that is only needed to be accessed once or twice. Similar to the memory on your computer, once the computer is restarted, the contents of this folder are cleared out.
+
+__text editors__
+vim
+nano - nano filename
+
+__transferring files from ur host- SCP(SSH)__
+from local to remote-
+ scp file.txt ubuntu@192.168.1.30:/home/ubuntu/filename.txt
+from remote to local-
+ scp ubuntu@192.168.1.40:/home/ubuntu/filename.txt file.txt
+
+__python web server__
+create sercer
+> python3 -m http.server
+
+download from it
+> wget http://127.0.0.1:8000/file
+
+__processes__
+ps - list of running processes
+ps aux - processes run by other users and those don't run from a session
+top - real time statistics about the processes running on the system
+kill - kill the process ex- kill 1134
+
+namespaces - split up the resources available on the computer
+
+_launch apache2 on boot_ - systemct1 start apache2
+
+__ctrl+c__ = cancel
+__ctrl+z__ = run in background(ex- run scripts in background)
+fg - bring background processes to foreground
+
+__Automation__
+cron
+crontab -e
+take backups of "documents" every 12 hours
+(0 *12 * * * cp -R /home/cmnatic/Documents /var/backups/)
+
+
+
+
 
 
 

@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "linux.md",
+            "file": "check out these.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "linux.md",
+                "file": "check out these.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "linux.md",
+                "file": "check out these.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "linux.md"
+                "file": "check out these.md"
               }
             }
           }
@@ -130,9 +130,13 @@
   },
   "active": "975cf757c5cfe752",
   "lastOpenFiles": [
-    "cloud.md",
+    "SOC analyst interview questions.md",
     "check out these.md",
+    "pentesting.md",
+    "OSI layers.md",
     "firewalls.md",
+    "linux.md",
+    "cloud.md",
     "1.MD"
   ]
 }
