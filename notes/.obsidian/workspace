@@ -130,12 +130,13 @@
   },
   "active": "975cf757c5cfe752",
   "lastOpenFiles": [
-    "SOC analyst interview questions.md",
-    "check out these.md",
-    "pentesting.md",
-    "OSI layers.md",
     "firewalls.md",
+    "pentesting.md",
+    "check out these.md",
+    "vulnerability management.md",
     "linux.md",
+    "SOC analyst interview questions.md",
+    "OSI layers.md",
     "cloud.md",
     "1.MD"
   ]
