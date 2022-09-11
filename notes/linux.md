@@ -23,6 +23,18 @@ file - determine the type of a file
 su - switch between users
 wget - wget url
 
+default port 22
+*start ssh service* - sudo service ssh start
+*check the status* - sudo service ssh status
+*create a root pswd* - sudo -i
+*edit ssh configuration file* - nano /etc/ssh/sshd_config -> "PermitRootLogin yes"
+*restart ssh service* - sudo service ssh restart
+*to protect more change the port number in config/everytime after a change restart*
+*ssh server run after the rebooting* - sudo systemctl enable ssh
+
+*log into ssh* - ssh [ip address] 
+*change port number to login if its changed* - ssh [ip address] -p [port number]
+
 __Common directories__
 /etc
 >This root directory is one of the most important root directories on your system. The etc folder (short for etcetera) is a commonplace location to store system files that are used by your operating system.

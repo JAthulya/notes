@@ -1,5 +1,7 @@
 cobit framework
 https://tryhackme.com/resources/blog/free_path
+https://drive.google.com/drive/folders/1F7D5c30nP-y_Q7SFqoRTRvJ7tl0UcY3q
+-check for api
 -different between cryptography and hashing
 -symmentric key/asymmetric key/cyphers
 -check security protocols and port numbers(remote protocol portnumber)
@@ -69,6 +71,9 @@ DNS spoofing(DNS cache poisoning) is entering false information into DNS cache. 
 DNS servers use UDP. 
 attackers can impersonate as DNS nameservers. forge the reply when DNS resolver queries from nameserver. this is possible because DNS servers use UDP and there is no verification.
 
+-what is a MAC address
+Media access control address is a serial number given for each interface. worldwide physical identification number given to every devices. the MAC address is virtually burned to the hardware by the vendor and hence end urser cannot alter or rewrite this burned in address(BIA).
+MAC address is the unique hardware address of an Ethernet NIC, typically "burned in" at the factory. MAC address may be changed in software. MAC address are 48 bits long. first 24 bits from Organizationally Unique Identifier(OUI) and last 24 bits from a serial number. Newer EUI-64 Mac addresses are 64 bits long. 
 
 -what is mac spoofing
 
@@ -86,7 +91,7 @@ unicast
 multicast
 broadcast
 
--what is a MAC address
+
 
 -what is DHCP
 DHCP works in application layer
