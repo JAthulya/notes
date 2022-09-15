@@ -1,3 +1,9 @@
+DNSdumpster
+whois
+dnsrecon -h
+dnschecker.org
+nslookup -h 
+
 **XSS**
 reflected XSS 
 stored xss
