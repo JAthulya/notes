@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "public search engine.md",
+            "file": "Bug Hunting.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "public search engine.md",
+                "file": "Bug Hunting.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "public search engine.md",
+                "file": "Bug Hunting.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "public search engine.md"
+                "file": "Bug Hunting.md"
               }
             }
           }
@@ -130,15 +130,15 @@
   },
   "active": "975cf757c5cfe752",
   "lastOpenFiles": [
-    "webhacking basics.md",
     "check out these.md",
     "Bug Hunting.md",
-    "foreinsics.md",
-    "pentesting.md",
-    "linux.md",
-    "SOC analyst interview questions.md",
+    "webhacking basics.md",
     "vulnerability management.md",
     "firewalls.md",
-    "OSI layers.md"
+    "cloud.md",
+    "bash.md",
+    "public search engine.md",
+    "foreinsics.md",
+    "pentesting.md"
   ]
 }

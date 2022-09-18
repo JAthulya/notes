@@ -71,6 +71,9 @@ DNS spoofing(DNS cache poisoning) is entering false information into DNS cache. 
 DNS servers use UDP. 
 attackers can impersonate as DNS nameservers. forge the reply when DNS resolver queries from nameserver. this is possible because DNS servers use UDP and there is no verification.
 
+first will check the local cache. if not request to recursive DNS server will be made.  recursive DNS is provided by ur ISP. then it goes to Root DNS server.  their job is to redirect to correct top level domain server. then tld servers will request to authoritative DNS server.  authoritative server is also known as the nameserver for the domain. 
+DNS records are all come with TTL value.
+
 -what is a MAC address
 Media access control address is a serial number given for each interface. worldwide physical identification number given to every devices. the MAC address is virtually burned to the hardware by the vendor and hence end urser cannot alter or rewrite this burned in address(BIA).
 MAC address is the unique hardware address of an Ethernet NIC, typically "burned in" at the factory. MAC address may be changed in software. MAC address are 48 bits long. first 24 bits from Organizationally Unique Identifier(OUI) and last 24 bits from a serial number. Newer EUI-64 Mac addresses are 64 bits long. IEEE created the EUI-64 standard for 64 bit MAC addresses. OUI is still 24 bits. serial number is 40 bits. this allows far more MAC addresses. 
@@ -142,8 +145,10 @@ port 23. client server protocol. open command line in remoter server. tcp(connec
 
 -what is HTTP
 is protocol viewing web pages.
+HTTP is what's used whenever you view a website, developed by Tim Berners-Lee and his team between 1989-1991. HTTP is the set of rules used for communicating with web servers for the transmitting of webpage data, whether that is HTML, Images, Videos, etc.
 
 -what is HTTPS
+HTTPS is the secure version of HTTP. HTTPS data is encrypted so it not only stops people from seeing the data you are receiving and sending, but it also gives you assurances that you're talking to the correct web server and not something impersonating it.
 
 -what is SMTP
 
