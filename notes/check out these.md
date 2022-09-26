@@ -1,6 +1,7 @@
 cobit framework
 https://tryhackme.com/resources/blog/free_path
 https://drive.google.com/drive/folders/1F7D5c30nP-y_Q7SFqoRTRvJ7tl0UcY3q
+https://www.ctfhub.com/#/index
 -check for api
 -different between cryptography and hashing
 -symmentric key/asymmetric key/cyphers

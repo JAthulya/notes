@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Bug Hunting.md",
+            "file": "linux.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Bug Hunting.md",
+                "file": "linux.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Bug Hunting.md",
+                "file": "linux.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Bug Hunting.md"
+                "file": "linux.md"
               }
             }
           }
@@ -130,15 +130,15 @@
   },
   "active": "975cf757c5cfe752",
   "lastOpenFiles": [
-    "check out these.md",
-    "Bug Hunting.md",
     "webhacking basics.md",
+    "check out these.md",
+    "linux.md",
+    "Bug Hunting.md",
     "vulnerability management.md",
     "firewalls.md",
     "cloud.md",
     "bash.md",
     "public search engine.md",
-    "foreinsics.md",
-    "pentesting.md"
+    "foreinsics.md"
   ]
 }
