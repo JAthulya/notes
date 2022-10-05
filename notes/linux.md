@@ -1,3 +1,9 @@
+**EXPANDING hard disk size in kali linux vmware**
+fdisk -l
+gparted (if this doesn't work watch this- https://www.youtube.com/watch?v=DSySW9r5CIg&t=66s)
+https://www.youtube.com/watch?v=NwpzYlfKnrY&t=1s - do like this
+after reboot
+
 __find something__
 find by the name -> find -name passwords.txt
 all txt files -> find -name * .txt
@@ -85,6 +91,14 @@ crontab -e
 take backups of "documents" every 12 hours
 (0 *12 * * * cp -R /home/cmnatic/Documents /var/backups/)
 
+**metasploit**
+start the service 
+*service postgresql start*
+
+search for exploits/payloads
+*search type:exploit platform:windows pdf*
+*use (name of the exploit/payload)*
+see the options- *show options*
 
 
 

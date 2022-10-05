@@ -1,5 +1,5 @@
 #!/bin/bash or #!/usr/bin/zsh
-
+which $SHELL
 # variable
 name="nameis"
 echo $name
