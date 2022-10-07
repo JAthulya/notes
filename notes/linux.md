@@ -100,6 +100,10 @@ search for exploits/payloads
 *use (name of the exploit/payload)*
 see the options- *show options*
 
+**export**
+Export IP=10.10.10.10
+now in next shell you can use $IP
+
 
 
 
