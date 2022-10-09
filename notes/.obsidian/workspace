@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "linux.md",
+            "file": "CTF/THM bountyhacker.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "linux.md",
+                "file": "CTF/THM bountyhacker.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "linux.md",
+                "file": "CTF/THM bountyhacker.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "linux.md"
+                "file": "CTF/THM bountyhacker.md"
               }
             }
           }
@@ -130,15 +130,15 @@
   },
   "active": "89d82ec9c138b9ca",
   "lastOpenFiles": [
-    "CTF/beginner pentesting THM.md",
+    "CTF/pickle rick.md",
+    "CTF/gamingserver.md",
+    "CTF/THM bountyhacker.md",
     "Untitled.md",
+    "bash.md",
     "pentesting.md",
     "linux.md",
+    "CTF/beginner pentesting THM.md",
     "Bug Hunting.md",
-    "bash.md",
-    "webhacking basics.md",
-    "check out these.md",
-    "vulnerability management.md",
-    "firewalls.md"
+    "webhacking basics.md"
   ]
 }
