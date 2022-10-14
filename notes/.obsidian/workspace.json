@@ -1,0 +1,155 @@
+{
+  "main": {
+    "id": "51bce16933d733c8",
+    "type": "split",
+    "children": [
+      {
+        "id": "b10861504b351f4c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "89d82ec9c138b9ca",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CTF/overpass2.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "1d47c6db105da72e",
+    "type": "split",
+    "children": [
+      {
+        "id": "220d45e0c707bf4d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e5f86b8672eb1a3e",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "cea03943eea29673",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "f8d68f5ce9475f8c",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 444.5
+  },
+  "right": {
+    "id": "69aafcee631abcb2",
+    "type": "split",
+    "children": [
+      {
+        "id": "99eb9623578644e5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d25f222a5fd2f9d8",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "CTF/overpass2.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "0dc107e623a23cf1",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "CTF/overpass2.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "32a3f231cc8819ff",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "2a0c425052b90d07",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "CTF/overpass2.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "ribbon": {
+    "mostRecentAction": ""
+  },
+  "active": "89d82ec9c138b9ca",
+  "lastOpenFiles": [
+    "CTF/THM bountyhacker.md",
+    "CTF/overpass2.md",
+    "linux.md",
+    "CTF/Overpass.md",
+    "CTF/pickle rick.md",
+    "pentesting.md",
+    "CTF/beginner pentesting THM.md",
+    "CTF/gamingserver.md",
+    "Bug Hunting.md",
+    "Untitled.md"
+  ]
+}
