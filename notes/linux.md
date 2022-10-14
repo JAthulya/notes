@@ -7,6 +7,19 @@ after reboot
 __find something__
 find by the name -> find -name passwords.txt
 all txt files -> find -name * .txt
+find -name file* -> to find all files with "file" in its name
+find -iname filename* -> make it case insesitive(ex-Filename, fileName)
+find -iname filename*.exe 
+find path -mtime -7 -> find file in last 7 day
+find path -mmin -7 -> find file in last 7 minutes
+find path -mtime -30 -size +10M-> find file in last30days above10MB
+find path -mtime -30 | grep txt
+__to find about directories__
+whereis john -> list of directories about john
+which john -> tell which file runs when we type"john"
+locate john -> find out about all the locations 
+sudo updatedb -> update if file is not finded by commands
+
 
 __grep - find something in content__
 access certain ip address in the log file -> grep "10.0.0.2" file.log
