@@ -21,3 +21,6 @@ sudo john --format=dynamic_82 -wordlist=/home/kali/Desktop/wordlist/rockyou.txt 
 
 hash.txt
 username:hashvalue$saltvalue
+
+__log into with james and cracked passwd__
+./.suid_bash -p
