@@ -19,6 +19,7 @@ whereis john -> list of directories about john
 which john -> tell which file runs when we type"john"
 locate john -> find out about all the locations 
 sudo updatedb -> update if file is not finded by commands
+pgrep name -> find process ID
 
 
 __grep - find something in content__
