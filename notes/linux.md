@@ -118,6 +118,14 @@ see the options- *show options*
 Export IP=10.10.10.10
 now in next shell you can use $IP
 
+__tar__
+tar -zxvf zipfile.tar.gz
+
+sudo tasksel -> change to gnome
+neofetch
+
+
+
 
 
 
