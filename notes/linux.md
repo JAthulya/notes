@@ -123,7 +123,12 @@ tar -zxvf zipfile.tar.gz
 
 sudo tasksel -> change to gnome
 neofetch
-
+```
+rm -rf ~/.thumbs/*
+```
+```
+mv .cache .cache_backup
+```
 
 
 
