@@ -23,7 +23,11 @@ base64 decode the code
 steghide --extract -sf cutie.png
 
 run linpeas.sh
+<<<<<<< HEAD
 sshpass -p 'hackerrules!' ssh james@$IP
+=======
+
+>>>>>>> e279cca (1)
 
 this room has this vulenerability
 https://blog.aquasec.com/cve-2019-14287-sudo-linux-vulnerability
