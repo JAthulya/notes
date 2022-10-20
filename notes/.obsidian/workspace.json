@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CTF/agent sudo.md",
+                "file": "github.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CTF/agent sudo.md",
+                "file": "github.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CTF/agent sudo.md",
+                "file": "github.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CTF/agent sudo.md"
+                "file": "github.md"
               }
             }
           }
@@ -166,15 +166,15 @@
   },
   "active": "ffc6a4f49d8c08d2",
   "lastOpenFiles": [
+    "pentesting.md",
+    "github.md",
+    "CTF/agent sudo.md",
     "CTF/beginner pentesting THM.md",
     "CTF/THM bountyhacker.md",
     "CTF/pickle rick.md",
     "CTF/overpass2.md",
     "CTF/Overpass.md",
     "CTF/gamingserver.md",
-    "CTF/agent sudo.md",
-    "linux.md",
-    "pentesting.md",
-    "CTF/wgel.md"
+    "linux.md"
   ]
 }
