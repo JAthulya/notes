@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CTF/the code caper.md",
+                "file": "linux.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CTF/the code caper.md",
+                "file": "linux.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CTF/the code caper.md",
+                "file": "linux.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CTF/the code caper.md"
+                "file": "linux.md"
               }
             }
           }
@@ -141,15 +141,15 @@
   },
   "active": "b6c0941d087a379c",
   "lastOpenFiles": [
-    "CTF/overpass2.md",
     "CTF/the code caper.md",
     "CTF/Overpass.md",
+    "CTF/overpass2.md",
     "pentesting.md",
+    "CTF/gamingserver.md",
+    "CTF/beginner pentesting THM.md",
+    "CTF/THM bountyhacker.md",
     "CTF/agent sudo.md",
     "CTF/wgel.md",
-    "CTF/THM bountyhacker.md",
-    "CTF/pickle rick.md",
-    "CTF/gamingserver.md",
-    "CTF/beginner pentesting THM.md"
+    "CTF/pickle rick.md"
   ]
 }

@@ -130,8 +130,37 @@ rm -rf ~/.thumbs/*
 mv .cache .cache_backup
 ```
 
+# linuxpermission
+first 3 - to user
+second 3 - to group
+third 3- to all users
 
+read = 4
+write = 2
+execute = 1
 
+rwx rw r = 7 6 4
+chmod 764 filename
+
+__change user and group name__
+chown user1:family filename -> user to user1, group to family
+
+The special permissions flag can be marked with any of the following:
+
+-   **_** – no special permissions
+-   _**d**_ – directory
+-   _**l**_– The file or directory is a symbolic link
+-   _**s**_ – This indicated the setuid/setgid permissions. This is not set displayed in the special permission part of the permissions display, but is represented as a **s** in the read portion of the owner or group permissions.
+-   _**t**_ – This indicates the sticky bit permissions. This is not set displayed in the special permission part of the permissions display, but is represented as a **t** in the executable portion of the all users permissions
+-
+The setuid/setguid permissions are used to tell the system to run an executable as the owner with the owner’s permissions.
+setuid example- ls -al /bin/su
+So do set the setuid/setguid bit on file2.sh you would issue the command _**_chmod g+s file2.sh_**._
+The sticky bit can be very useful in shared environment because when it has been assigned to the permissions on a directory it sets it so only file owner can rename or delete the said file.
+
+You can only assign the sticky bit by explicitly defining permissions. The character for the sticky bit is **t**.
+
+To set the sticky bit on a directory named dir1 you would issue the command _**_chmod +t dir1_**._
 
 
 
