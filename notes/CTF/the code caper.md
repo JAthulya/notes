@@ -10,6 +10,7 @@ check /etc/passwd to check whether there are accounts
 cd /
 find / -user pingu 2>/dev/null
 
+<<<<<<< HEAD
 _use this to investigate ELF executable files_
 readelf -s filename - to read the symbols(read the address for shell function)
 
