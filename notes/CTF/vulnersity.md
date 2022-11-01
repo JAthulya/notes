@@ -17,6 +17,7 @@ __PRIVILEDGE ESCALATION__
 /bin/systemctf
 go to GTFObins
 edit the code and run it
+bash -p
 now we have root access
 
 
