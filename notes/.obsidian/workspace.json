@@ -25,14 +25,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "github.md",
+                "file": "CTF/cyborg.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "264e05a8771d854c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CTF/KENOBI - (samba,suid,path).md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "github.md",
+                "file": "CTF/KENOBI - (samba,suid,path).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "github.md",
+                "file": "CTF/KENOBI - (samba,suid,path).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "github.md"
+                "file": "CTF/KENOBI - (samba,suid,path).md"
               }
             }
           }
@@ -149,17 +161,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "de8c165677be9d1b",
+  "active": "264e05a8771d854c",
   "lastOpenFiles": [
     "CTF/cyborg.md",
-    "CTF/the code caper.md",
+    "CTF/vulnersity.md",
     "CTF/THM bountyhacker.md",
+    "CTF/the code caper.md",
+    "CTF/pickle rick.md",
     "CTF/overpass2.md",
     "CTF/Overpass.md",
     "CTF/gamingserver.md",
     "CTF/beginner pentesting THM.md",
-    "CTF/agent sudo.md",
-    "CTF/wgel.md",
-    "CTF/vulnersity.md"
+    "CTF/agent sudo.md"
   ]
 }
