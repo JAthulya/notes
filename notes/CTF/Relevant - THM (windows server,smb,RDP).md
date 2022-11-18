@@ -71,3 +71,33 @@ then it will connect to the server. go to the bob desktop. there will be the use
 [cd c:/users/bob/Desktop]
 
 
+# Root priviledge 
+
+first use shell command u idiot.
+
+[shell]
+
+now see the priviledges 
+
+[whoami /priv]
+
+Now that we have shell access we can use the whoami /priv command to check our user privileges. We see that we have SeImpersonate privileges, which can commonly be used to escalate using a potato attack, or with incognito if impersonation tokens exist. However, DCOM is disabled on this server which prevents potato attacks, and there are no tokens to impersonate.
+(i don't know what this is)
+
+There is a newer exploit that came about several months ago called [Printspoofer](https://itm4n.github.io/printspoofer-abusing-impersonate-privileges/) that exploits a vulnerability in Windows where certain service accounts are required to run with elevated privileges utilizing the SeImpersonate privilege. We see that we are the iis apppool\defaultapppool service account user, which should allow us to elevate using the Printspoofer exploit.
+
+upload printspoofer to the smb share. 
+
+now go to this directory
+
+[cd c:/intepub/wwwroot] now u can see the smb share in it. go to it. and run the exe file.
+
+[PrintSpoofer -i -c cmd] - to gain root priviledges .
+
+[whoami] - will show nt authority/system.
+
+[cd c:/users/administrator/desktop/] there will be root.txt
+
+[type root.txt] - will read it. cat command doesn't work
+
+
