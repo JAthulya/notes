@@ -18,8 +18,33 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "dce19798c864d2cb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CTF/blue - ms17-010.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "81c468eecf3fcdd2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CTF/blue - ms17-010.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CTF/Relevant - THM (windows server,smb,RDP).md",
+                "file": "CTF/blue - ms17-010.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CTF/Relevant - THM (windows server,smb,RDP).md",
+                "file": "CTF/blue - ms17-010.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CTF/Relevant - THM (windows server,smb,RDP).md"
+                "file": "CTF/blue - ms17-010.md"
               }
             }
           }
@@ -136,17 +161,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "c9191954354c44e6",
+  "active": "dce19798c864d2cb",
   "lastOpenFiles": [
-    "CTF/KENOBI - (samba,suid,path).md",
+    "CTF/blue.md",
     "CTF/Relevant - THM (windows server,smb,RDP).md",
+    "CTF/blue - ms17-010.md",
+    "CTF/KENOBI - (samba,suid,path).md",
     "CTF/vulnersity.md",
     "CTF/Overpass.md",
     "CTF/looking Glass.md",
     "CTF/the code caper.md",
     "CTF/wonderland - THM.md",
-    "CTF/wgel.md",
-    "CTF/THM bountyhacker.md",
-    "CTF/pickle rick.md"
+    "CTF/wgel.md"
   ]
 }
