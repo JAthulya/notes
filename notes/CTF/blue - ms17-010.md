@@ -46,3 +46,13 @@ migrate service can be used to hide our process
 [hashdump] - dumping windows hash files
 
 [crackstation] - can be used to crack the hash
+
+using johntheripper to crack the hash value
+
+[john --format=nt -wordlist=rockyou.txt hash.txt]
+
+flag1 was in c:/ itself
+flag 2 was in c:/windows/system32/config
+metasploit has search function
+
+[search -f flag*.txt]
