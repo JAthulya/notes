@@ -37,7 +37,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CTF/hackervshacker.md",
+                "file": "CTF/KENOBI - (samba,suid,path).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "11ddac658d0e9a2b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CTF/lazy admin.md",
                 "mode": "source",
                 "source": false
               }
@@ -56,7 +68,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -122,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CTF/hackervshacker.md",
+                "file": "CTF/lazy admin.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CTF/hackervshacker.md",
+                "file": "CTF/lazy admin.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CTF/hackervshacker.md"
+                "file": "CTF/lazy admin.md"
               }
             }
           }
@@ -173,17 +185,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "ee85943908359644",
+  "active": "11ddac658d0e9a2b",
   "lastOpenFiles": [
-    "CTF/Relevant - THM (windows server,smb,RDP).md",
-    "CTF/KENOBI - (samba,suid,path).md",
     "CTF/hackervshacker.md",
-    "pentesting.md",
+    "CTF/Relevant - THM (windows server,smb,RDP).md",
+    "CTF/lazy admin.md",
+    "CTF/KENOBI - (samba,suid,path).md",
+    "CTF/gamingserver.md",
+    "CTF/cyborg.md",
     "CTF/blue - ms17-010.md",
-    "CTF/overpass2.md",
-    "CTF/wonderland - THM.md",
-    "CTF/wgel.md",
-    "CTF/vulnersity.md",
-    "CTF/THM bountyhacker.md"
+    "CTF/beginner pentesting THM.md",
+    "CTF/agent sudo.md",
+    "CTF/looking Glass.md"
   ]
 }
