@@ -56,6 +56,7 @@ __FORTIEXTENDER__ - integrating 5G LTE(long term evolution) connections into sd-
 
 #Zero_trush_access
 fortinet zta
+enables organizations to see and control everyone and everything on the network
 principles of the fortinet ZTA
 	verify
 	give minimal access
@@ -71,5 +72,78 @@ __Fortinet fabric management center__
 	forti EDR
 	forti AI
 
+Products of the zero trust access solution
+	FortiAuthenticator
+	is gatekeeper of authorzation into the fortinet secured enterprise network.identifying users,querying access permissions from third party systems, communicating the information to fortigate
+	fortiClient
+	connects endpoints with the fortinet security fabric.
+	FortiNAC
+	is a security product that implements policy on devices that access networks to increase network visibility and control and facilitate automated responses.
 
+__FORTIAUTHENTICATOR__
+identity management
+
+__FORTICLIENT__
+is intergrated endpoint agent
+what problems it solve- lack of visibility, vulnerable endpoints, unsuspectting users,
+epp- endpoint protection platform 
+1. fabric agent- visibility, quarantine, vulnerability, app inventory
+2. secure remote access - ssl/ipsec vpn, sso and ZTNA (single sigh on (SSO))
+3. advanced threat protection - sandbox integration
+4. endpoint protection platform(EPP) - app fw, antimalware, anti-exploit,web filtering. (CPRL- compact pattern recognition language)
+
+forticlient integrates with fortiauthenticator to support multi factor authentication.
+
+__FORTINAC__
+network access control is security solution that identifies and enforces policy on devices that access networks to increase visibility and reduce risk.
+nac goals - visibility, control, automated response
+FortiGate provides security rating service. the scores can be viewed from the root fortigate, fortiNAC identifies and classifies devices. 
+
+FortiNAC integrates with:
+	fortigate
+	fortianalyzer
+	fortiSIEM
+	fortiSwitch
+	fortiAP
+	forticlient
+	fortiEDR
+
+the product components of fortinet ZTNA are:
+	fortigate NGFW
+	fortimanager for centralized management
+	forticlient as the ZTNA agent at the endpoint
+	forticlient endpoint management server(EMS) to configure the forticlient ZTNA agents
+	FortiAuthenticator
+	fotitoken
+FortiNAC uses rules, which can consist of up to 20 profiling methods, to identify and categorize an unknown device. once device is assigned a device type it can be added to a role and group that can restrict what the device can do. 
+
+#Adaptive_cloud_security
+adaptive cloud security solution principal
+1. native integration- supports the auto scaling capabilities of the cloud providers
+2. broad protection - provide zero day threat protection against new AI and ML
+3. management and automation- enables regulatory compliance through centralized security management, automated workflows and shared threat intelligence.
+
+Products of the solution
+	fortigate cloud
+	fortiDDoS
+	fortiWeb
+	fortiMail
+	FortiADC
+	fortiCASB
+	fortiCNP
+value of the solution
+	security posture
+	IT
+	business
+
+__FortiADC__
+application delivery controller.
+what problems does fortiADC solve
+	server load balancing
+	secure traffic offloading
+	global server load balancing
+	persistence
+	HTTP compression
+the correct topology positioning for FortiADC
+wireless access point-> firewall-> application device controller-> application servers
 
