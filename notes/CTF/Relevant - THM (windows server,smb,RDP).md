@@ -1,3 +1,4 @@
+wsl
 getend group | grep kali -> look at groups which are in kali
 install docker - sudo apt install docker.io
 sudo apt install podman - install podman
