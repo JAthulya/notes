@@ -138,6 +138,7 @@ value of the solution
 
 __FortiADC__
 application delivery controller.
+scale web based applications for capacity and availability.
 what problems does fortiADC solve
 	server load balancing
 	secure traffic offloading
@@ -146,4 +147,102 @@ what problems does fortiADC solve
 	HTTP compression
 the correct topology positioning for FortiADC
 wireless access point-> firewall-> application device controller-> application servers
+
+__FORTIMAIL__
+operation modes - gateway mode, microsoft 365 API claw back, transparent mode, server mode
+email continuity - is designed to protect valuable productivity by providing emergency mailbox services when organizations experience an outage in their mail services.
+fortiisolarot- allows users to browse in isolated env.
+dynamic image analysis service.
+
+__FortiWeb__
+
+#security_operations
+fortinet fabric management center 
+	soc platform - centralized management, security fabric analytics
+	breach protection - security automation and orchestration, advanced threat detection
+	end point security - detection and response for endpoints.
+
+product of the solution
+SOC platform
+	fortianalyzer
+	fortiSIEM
+	fortiSOAR
+	fortiXDR
+Advanced threat protection
+	fortiSandbox
+	fortiDeceptor
+	fortiilnsight
+	fortiAI
+Endpoint security
+	fortiClient(fabric agent)
+	fortiEDR
+security fabric integration
+	fortiGate
+	fortiManager
+
+__fortiNDR__
+network detection and response
+use ai and other analytics to identify suspicious activities, covering both network traffic and file based analysis(virtual security analyst, detect, trace ,respond
+fortinet products that feed fortiNDR files for analysis are fortiGate, fortiProxy, fortiSandbox and fortiWeb. 
+the principal features of fortiNDR are the VSA, detecting,tracing,responding,
+
+__FortiAnalyzer__
+allows to create playbooks for automation
+form factors
+	appliance
+	virtual machine (vmware,ms hyper-v)
+	cloud (aws,azure)
+	hosted (fortianalyzer cloud)
+key benifits
+	increase security
+	reduces complexity
+	lowers TCO
+	automates compliance
+FortiAnalyzer correlates logs to construct a comprehensive security view of the network
+FortiGuard indicator of compromise service provides daily threat intelligence updates to construct a list of possible compromised hosts.
+fortiView provides real time reporting of threat intelligence through dashboards and monitors
+FortiGuard security rating service performs ongoing security autdit of the network and highlights gaps in security and problem areas. 
+
+___FortiDeceptor___
+act as a honeypot
+steps of fortiDeceptor
+	expose- acts as an early warning system that generates alerts for review and validation
+	Eliminate- can trigger fortigate to quarantine the ip address of the threat actor
+	deceive- lures attackers with decoys and real devices equipped with tokens that appear indistinguishable from real IT and OT assets.
+
+___FORTIEDR___
+epp(endpoint protection) with detection and response.
+	discover and prevent attacks
+	detect, defuse and respond
+	remediate and investigate
+features
+	pre infection- discover and predict
+	post infection - block,detect defuse, respond and investigate
+
+___forti sandbox___
+safe isolated env which can analyse dynamic behavior
+
+___FORTISIEM___
+features
+	CMDB(configuration management db)- discovery and inventory
+	monitor and maintain business services
+	detect and remediate
+	assess and report on compliance
+	extensible and customizable
+multi tenancy for MSP(manage service providers)
+
+___FortiSOAR___
+automated playbook/ incident triage/ real time remediation
+key differentiators of fortisoar
+	advanced case management
+	sophisticated role based access control(RBAC)
+	simplified playbook designer
+	enterprise scalable architecture
+
+___FortiXDR___
+endpoint and IOT security/ network access and security/ application and cloud security
+
+
+
+
 
