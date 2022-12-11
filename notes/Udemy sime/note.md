@@ -11,7 +11,7 @@ helps to protect web applications by filtering and monitoring HTTP traffic betwe
 layer 7 defense.
 waf operates based on blocklist
 waf operates based on allowlist
-network based wirefalls
+network based firewalls
 	hardware based
 	installed locally
 	expensive and require storage and maintenance of physical equipment
@@ -27,6 +27,7 @@ ioa
 focus on detecting the intent of what an attacker is trying to accomplish. ioc based detection approach cannot detect the increasing threats from malware free intrusions and zero day exploits.no advance knowledge of tools or malware is required.
 ioc
 like an evidence on a computer that indicates the security of the network has been breached. investigators usually gather this data after being informed of a suspicious incidennts.
+collection of IPs, domain, url,hashes
 cve
 common vulnerability exposure. CVE is a gloassary that classifies vulnerabilities. the glossary analyzes vulnerabilities and then uses the common vulnerability scoring system(cvss) to evaluate the threat level of vulnerability.
 -zero day vulnerability

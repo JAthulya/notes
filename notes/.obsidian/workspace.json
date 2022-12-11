@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "9eaace8b147b8e87",
+            "id": "c5bf9afcc6292678",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Udemy sime/5. protocols and ports.md",
+                "file": "Udemy sime/note.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Udemy sime/5. protocols and ports.md",
+                "file": "Udemy sime/note.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Udemy sime/5. protocols and ports.md",
+                "file": "Udemy sime/note.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Udemy sime/5. protocols and ports.md"
+                "file": "Udemy sime/note.md"
               }
             }
           }
@@ -136,17 +136,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "9eaace8b147b8e87",
+  "active": "c5bf9afcc6292678",
   "lastOpenFiles": [
-    "check out these.md",
-    "pentesting.md",
-    "SOC analyst interview questions.md",
+    "Udemy sime/16 attacking phase.md",
+    "Udemy sime/17. SIEM solution.md",
+    "Udemy sime/15. Firewall working types & reporting.md",
+    "Udemy sime/14. IDS.md",
+    "Udemy sime/13. Antivirus working types.md",
+    "Udemy sime/11. Web Application Attack.md",
     "Udemy sime/5. protocols and ports.md",
-    "Udemy sime/note.md",
-    "NSE5 fortiSIEM.md",
     "Udemy sime/4. UDP & ICMP protocol.md",
-    "Udemy sime/3. internet layer and transport layer.md",
-    "Udemy sime/2. foundation of bit,bytes in packets.md",
+    "Udemy sime/note.md",
     "Udemy sime/1. basic of networking.md"
   ]
 }
